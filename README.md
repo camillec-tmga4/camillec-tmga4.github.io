@@ -29,9 +29,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div>
 <h2>HTML Buttons</h2>
 <p>HTML buttons are defined with the button tag:</p>
-<a href="https://www.google.com/">
-    <button>Click Me</button>
-  </a> 
+
+<a class="btn" href="https://www.google.com/">Link</a>
+<button class="btn" type="submit">Button</button>
+
 </div>
 </body>
 </html>
