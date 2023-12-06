@@ -152,8 +152,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="navbar">
   <a href="#" class="active">Home</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#">Travel Destination</a>
+  <a href="#">Coffee</a>
   <a href="#" class="right">Link</a>
 </div>
 
