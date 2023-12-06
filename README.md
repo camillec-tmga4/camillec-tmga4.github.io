@@ -30,8 +30,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <h2>HTML Buttons</h2>
 <p>HTML buttons are defined with the button tag:</p>
 <button a href="html_images.asp">Click me</a></button>
-//<button>Click me</button>
-
 </div>
 </body>
 </html>
