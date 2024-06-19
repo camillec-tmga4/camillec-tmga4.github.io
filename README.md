@@ -115,6 +115,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div id="home" class="section active">
             <h2>Home Page</h2>
             <p>Welcome to our Adventure Travel Website. Discover amazing places and plan your next adventure with us.</p>
+                  <div class="gallery">
+                <a href="#" onclick="showSection('singapore')"><img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/il7jc87wZ_o8/v0/-1x-1.jpg" alt="Singapore"></a>
+                <a href="#" onclick="showSection('hongkong')"><img src="https://cdn.pixabay.com/photo/2020/12/17/00/43/skyscrapers-5838029_1280.jpg" alt="Hong Kong"></a>
+                <!-- Add more images as needed -->
+            </div>
         </div>
         <div id="next-destination" class="section">
             <h2>Next Destination</h2>
@@ -125,6 +130,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li>Enjoy delicious cuisine</li>
                 <li>Relax in luxurious accommodations</li>
             </ul>
+        </div>
+
+       <div id="singapore" class="section">
+            <h2>Singapore</h2>
+            <p>OEnjoy Singapore!</p>
+        </div>
+
+         <div id="hongkong" class="section">
+            <h2>HongKong</h2>
+            <p>Enjoy HongKong!</p>
         </div>
     </main>
     <footer>
