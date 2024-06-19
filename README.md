@@ -59,11 +59,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         footer {
             background-color: #B8A983;
             color: white;
+            text-align: center;
             padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
         .section {
             display: none;
