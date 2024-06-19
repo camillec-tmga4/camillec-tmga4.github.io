@@ -23,23 +23,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         header {
             background-color: #B8A983;
             color: white;
-            padding: 10px 0;
+            padding: 10px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
+            flex-wrap: wrap;
         }
         header img {
             height: 50px;
-            margin-left: 20px;
-        }
-        header nav {
-            margin-right: 20px;
         }
         nav ul {
             list-style: none;
             padding: 0;
             display: flex;
             gap: 10px;
+            margin: 0;
         }
         nav ul li {
             display: inline;
@@ -71,6 +69,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
         .section.active {
             display: block;
+        }
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav ul {
+                flex-direction: column;
+                width: 100%;
+            }
+            nav ul li {
+                width: 100%;
+            }
+            nav ul li a {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
         }
     </style>
 </head>
