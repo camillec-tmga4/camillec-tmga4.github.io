@@ -62,7 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             text-align: center;
             padding: 10px 20px;
             position: fixed;
-            width: 100%;
+            width: 50%;
             bottom: 0;
         }
         .section {
