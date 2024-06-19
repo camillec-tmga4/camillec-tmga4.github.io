@@ -104,10 +104,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <header>
         <img src="https://static.vecteezy.com/system/resources/thumbnails/023/404/384/small/adventure-quote-and-so-the-adventure-begins-png.png" alt="Adventure Logo">
-        <nav class="header_nav">
+        <nav>
             <ul>
-                <li><a href="#" onclick="showSection('home')">Home</a></li>
-                <li><a href="#" onclick="showSection('next-destination')">Destination</a></li>
+                <li><a href="#" onclick="showSection('home')" class="header_nav">Home</a></li>
+                <li><a href="#" onclick="showSection('next-destination')" class="header_nav">Destination</a></li>
             </ul>
         </nav>
     </header>
@@ -143,7 +143,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </main>
     <footer>
-        <p class="footer_nav">&copy;Adventure Travel Website. <a href="#" onclick="showSection('next-destination')">Destination</a></p>
+        <p>&copy;Adventure Travel Website. <a href="#" onclick="showSection('next-destination')" class="footer_nav">Destination</a></p>
         
     </footer>
     <script>
