@@ -143,7 +143,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </main>
     <footer">
-        <p class="footer_nav>&copy;Adventure Travel Website. <a href="#" onclick="showSection('next-destination')">Destination</a></p>
+        <p class="footer_nav">&copy;Adventure Travel Website. <a href="#" onclick="showSection('next-destination')">Destination</a></p>
         
     </footer>
     <script>
