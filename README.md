@@ -123,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 Adventure Travel Website. All rights reserved.</p>
+        <p>&copy;Adventure Travel Website.</p>
     </footer>
     <script>
         function showSection(sectionId) {
