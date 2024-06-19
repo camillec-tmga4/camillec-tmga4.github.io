@@ -1,8 +1,8 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- Google Tag Manager -->
+ <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -10,183 +10,113 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MST4ZVS5');</script>
 <!-- End Google Tag Manager -->
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JSP4B7VDHH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JSP4B7VDHH');
-</script>
-
-
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Active/current link */
-.navbar a.active {
-  background-color: #666;
-  color: white;
-}
-
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Travel Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #B8A983;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 50px;
+            margin-left: 20px;
+        }
+        header nav {
+            margin-right: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .section {
+            display: none;
+        }
+        .section.active {
+            display: block;
+        }
+    </style>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
+
+ <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MST4ZVS5"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<div class="header">
-  <h1>My Website</h1>
-  <p>A <b>responsive</b> website created by me.</p>
-</div>
 
-<div class="navbar">
-  <a href="#" class="active">Home</a>
-  <a href="#">Travel Destination</a>
-  <a href="#">Coffee</a>
-  <a href="#" class="right">Link</a>
-</div>
-
-<div class="row">
-  <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
-  </div>
-  <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
-
+    <header>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/023/404/384/small/adventure-quote-and-so-the-adventure-begins-png.png" alt="Adventure Logo">
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('next-destination')">Next Destination</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="home" class="section active">
+            <h2>Home Page</h2>
+            <p>Welcome to our Adventure Travel Website. Discover amazing places and plan your next adventure with us.</p>
+        </div>
+        <div id="next-destination" class="section">
+            <h2>Next Destination</h2>
+            <p>Our next exciting destination is the beautiful beaches of Bali, Indonesia. Join us for an unforgettable adventure!</p>
+            <ul>
+                <li>Explore stunning beaches</li>
+                <li>Experience vibrant culture</li>
+                <li>Enjoy delicious cuisine</li>
+                <li>Relax in luxurious accommodations</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Adventure Travel Website. All rights reserved.</p>
+    </footer>
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
 </body>
 </html>
