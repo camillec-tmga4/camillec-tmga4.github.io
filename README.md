@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://media.istockphoto.com/id/1315152008/photo/passport-airplane-tickets-yellow-suitcase-sun-hat-and-protective-face-mask-on-yellow.webp?b=1&s=170667a&w=0&k=20&c=7ZXNxfmh71Z7nJXKWFT4BY-Hp1XZQpgB_LipRf1y_L4=');
+            background-image: url('https://image.slidesdocs.com/responsive-images/background/color-blue-nature-travel-agency-fashion-travel-powerpoint-background_2753391815__960_540.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
