@@ -107,7 +107,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <nav>
             <ul>
                 <li><a href="#" onclick="showSection('home')">Home</a></li>
-                <li><a href="#" onclick="showSection('next-destination')">Next Destination</a></li>
+                <li><a href="#" onclick="showSection('next-destination')">Destination</a></li>
             </ul>
         </nav>
     </header>
