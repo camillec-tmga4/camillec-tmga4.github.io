@@ -102,9 +102,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-    <header class="header_nav">
+    <header>
         <img src="https://static.vecteezy.com/system/resources/thumbnails/023/404/384/small/adventure-quote-and-so-the-adventure-begins-png.png" alt="Adventure Logo">
-        <nav>
+        <nav class="header_nav">
             <ul>
                 <li><a href="#" onclick="showSection('home')">Home</a></li>
                 <li><a href="#" onclick="showSection('next-destination')">Destination</a></li>
@@ -142,8 +142,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p>Enjoy HongKong!</p>
         </div>
     </main>
-    <footer class="footer_nav">
-        <p>&copy;Adventure Travel Website. <a href="#" onclick="showSection('next-destination')">Destination</a></p>
+    <footer">
+        <p class="footer_nav>&copy;Adventure Travel Website. <a href="#" onclick="showSection('next-destination')">Destination</a></p>
         
     </footer>
     <script>
